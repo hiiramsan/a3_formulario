@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Students Data Entry Form</h1>
+    <form action="">
+      <label for="name">Student Name</label>
+      <input type="text" name="name" id="" placeholder="Student Name" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email" />
+      <br />
+      <div>
+        <label for="gender">Gender: </label>
+
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label for="subjects">Subjects: </label>
+        <input type="checkbox" id="" name="subject" value="Tamil" />
+        <label for="tamil">Tamil</label>
+
+        <input type="checkbox" id="" name="subject" value="Telegu" />
+        <label for="telegu">Telegu</label>
+
+        <input type="checkbox" id="" name="subject" value="English" />
+        <label for="english">English</label>
+
+        <input type="checkbox" id="" name="subject" value="Physics" />
+        <label for="physics">Physics</label>
+
+        <input type="checkbox" id="" name="subject" value="Economics" />
+        <label for="economics">Economics</label>
+      </div>
+      <br />
+      <label for="city">City / Town : </label>
+      <select name="city">
+        <option value="madurai">Madurai</option>
+        <option value="obre">Obre</option>
+        <option value="hillo">Hermosillo</option>
+        <option value="lalal">lalal</option>
+        <option value="lallaa">lallaa</option>
+      </select>
+      <br />
+      <label for="comments">Comments:</label>
+      <br />
+      <textarea
+        name="comments"
+        id=""
+        placeholder="add your comments"
+        rows=""
+        cols=""
+      ></textarea>
+      <br />
+      <input type="reset" value="Clear" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
